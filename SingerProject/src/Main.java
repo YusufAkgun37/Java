@@ -82,8 +82,7 @@ public class Main {
                 case 6:
                     exit = true;
                     System.out.println("Exiting the application...");
-                default:
-                    throw new AssertionError();
+                    break;
             }
         }
     }
